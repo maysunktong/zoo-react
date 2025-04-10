@@ -1,10 +1,11 @@
 import Navigation from "../Navigation";
 
-const Header = () => {
+const MainHeader = () => {
   return (
     <header>
+      <h1>Main Header</h1>
       <Navigation />
     </header>
   );
 };
-export default Header;
+export default MainHeader;
