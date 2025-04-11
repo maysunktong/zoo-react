@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 19fr;
-  background-color: var(--header-bg-dark);
+  background-color: var(--header-bg-light);
   height: 10rem;
   padding: 2rem 0;
   position: sticky;
