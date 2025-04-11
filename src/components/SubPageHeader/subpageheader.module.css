@@ -1,7 +1,18 @@
 .header {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  background-color: var(--header-bg-dark);
+  min-height: 4rem;
+}
+
+.langSwitcherContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--header-bg-dark);
-  gap: 1rem;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
