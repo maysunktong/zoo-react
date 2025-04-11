@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +17,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --header-bg-light: #104911;
+  --header-bg-dark: #261104;
 }
 
 a {
@@ -23,7 +32,4 @@ a {
     color: #213547;
     background-color: #fcf8e9;
   }
-
-  a {
-    color: #213547;
 }

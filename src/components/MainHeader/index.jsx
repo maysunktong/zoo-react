@@ -1,9 +1,11 @@
+import logo from "../../../public/assets/logo/logo.png";
 import Navigation from "../Navigation";
+import styles from "./header.module.css";
 
 const MainHeader = () => {
   return (
-    <header>
-      <h1>Main Header</h1>
+    <header className={styles.header}>
+      <img src={logo} alt="logo" width={200} />
       <Navigation />
     </header>
   );
