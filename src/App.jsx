@@ -1,10 +1,10 @@
+import { useRoutes } from "react-router-dom";
 import routes from "./routes/routes";
-import { useRoutes } from 'react-router-dom';
 
 function App() {
-  const routing = useRoutes(routes);
+  const allRoutes = useRoutes(routes);
 
-  return <>{routing}</>;
+  return <>{allRoutes}</>;
 }
 
 export default App;

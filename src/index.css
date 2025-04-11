@@ -14,8 +14,7 @@
 }
 
 a {
-  font-weight: 500;
-  color: black;
+  color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
 }
 
@@ -24,4 +23,7 @@ a {
     color: #213547;
     background-color: #fcf8e9;
   }
+
+  a {
+    color: #213547;
 }
