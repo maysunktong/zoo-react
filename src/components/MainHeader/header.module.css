@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
   background-color: var(--header-bg-light);
-  min-height: 4rem;
+  height: 10rem;
+  padding: 2rem 0;
+  position: sticky;
+  z-index: 10;
+  top: 0;
 }
 
 .menuContainer {
@@ -11,11 +15,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .langSwitcherContainer {
   position: absolute;
-  top: 2rem;
-  left: 0;
-  z-index: 10;
+  top: 4rem;
+  left: 2rem;
+  z-index: 20;
 }

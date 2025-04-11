@@ -1,0 +1,32 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+  background-color: #f5f5f5;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.open {
+  width: 250px;
+}
+
+.closed {
+  width: 60px;
+}
+
+.toggleBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  align-self: flex-end;
+}
+
+.content {
+  padding: 1rem;
+}

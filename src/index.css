@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+label, select {
+  color: rgba(255, 255, 255, 0.87);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -1,6 +1,5 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
-import styles from "./langswitcher.module.css"
+import styles from "./langswitcher.module.css";
 
 const LanguageSwitcher = () => {
   const { i18n, t } = useTranslation();
@@ -14,9 +13,9 @@ const LanguageSwitcher = () => {
         onChange={(e) => changeLanguage(e.target.value)}
         value={i18n.language}
       >
-        <option value="en">English</option>
-        <option value="sv">Svenska</option>
-        <option value="th">thai</option>
+        <option value="en">🇺🇸</option>
+        <option value="sv">🇸🇪</option>
+        <option value="th">🇹🇭</option>
       </select>
     </div>
   );

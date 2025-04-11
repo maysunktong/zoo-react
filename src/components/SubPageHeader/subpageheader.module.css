@@ -1,8 +1,12 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr 19fr;
   background-color: var(--header-bg-dark);
-  min-height: 4rem;
+  height: 10rem;
+  padding: 2rem 0;
+  position: sticky;
+  z-index: 10;
+  top: 0;
 }
 
 .langSwitcherContainer {
@@ -15,4 +19,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
 }
