@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import styles from "./sidebar.module.css";
+import AnimalCard from "../AnimalCard";
+import { allAnimals } from "../../data/animals";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -14,7 +16,9 @@ const Sidebar = () => {
       </button>
       {isOpen && (
         <div className={styles.content}>
-          <p>Sidebar content</p>
+          {allAnimals.map((animal) => (
+            <AnimalCard key={animal.name} animal={animal} animalImage={animal.imageUrl} />
+          ))}
         </div>
       )}
     </div>

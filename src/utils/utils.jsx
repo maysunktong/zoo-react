@@ -6,5 +6,5 @@ export function getImagePath(name, type = "jpg") {
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/\s+/g, "-");
 
-  return `/images/${formattedName}.${type}`;
+  return `../../public/assets/animals/${formattedName}.${type}`;
 }
