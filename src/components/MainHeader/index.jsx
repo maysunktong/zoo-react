@@ -17,8 +17,10 @@ const MainHeader = () => {
           <LanguageSwitcher />
         </div>
         <div className={styles.menuContainer}>
-          <img src={logo} alt="logo" width={200} />
-          <Navigation />
+          <div className={styles.logoContainer}>
+            <img src={logo} alt="logo" width={200} />
+          </div>
+          <Navigation layout="main" />
         </div>
       </header>
     </motion.div>

@@ -1,5 +1,5 @@
 import MainLayout from "../components/MainLayout";
-import SubPageLayout from '../components/SubPageLayout';
+import SubPageLayout from "../components/SubPageLayout";
 import Birds from "../pages/Birds";
 import Home from "../pages/Home";
 import Mammals from "../pages/Mammals";
@@ -17,8 +17,11 @@ const routes = [
       { path: "/mammals", element: <Mammals /> },
       { path: "/birds", element: <Birds /> },
       { path: "/reptiles", element: <Reptiles /> },
-      { path: "/shop", element: <Shop /> },
     ],
+  },
+  {
+    element: <MainLayout />,
+    children: [{ path: "/shop", element: <Shop /> }],
   },
 ];
 

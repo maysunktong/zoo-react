@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 19fr;
   background-color: var(--header-bg-light);
-  height: 10rem;
-  padding: 2rem 0;
+  height: 9rem;
   position: sticky;
   z-index: 10;
   top: 0;
@@ -13,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2rem;
 }
 
 .menuContainer {

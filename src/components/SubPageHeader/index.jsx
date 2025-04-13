@@ -18,7 +18,7 @@ const SubPageHeader = () => {
         </div>
         <div className={styles.menuContainer}>
           <img src={logo} alt="logo" width={200} />
-          <Navigation />
+          <Navigation layout="subpage" />
         </div>
       </header>
     </motion.div>

@@ -2,5 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.main {
+  width: 100vw;
+  background-color: #fff;
+  padding: 1rem 0;
+}
+
+.link {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.subpage_link {
+  color: #719e71;
+}
+
+.main_linkActive {
+  color: #104911;
+  font-weight: bold;
+}
+
+.subpage_linkActive {
+  color: #fcf8e9;
+  font-weight: bold;
+}
+
+.default_linkActive {
+  color: orange;
+  text-decoration: underline;
 }
