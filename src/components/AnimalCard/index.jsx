@@ -7,7 +7,7 @@ const AnimalCard = ({ animal, animalImage }) => {
   return (
     <div>
       <img src={animalImage} alt="" width={200} />
-       <h2>{animalInfo.name}</h2>
+       <h2>{animal.name}</h2>
     </div>
   );
 };
