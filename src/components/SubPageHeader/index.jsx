@@ -11,6 +11,7 @@ const SubPageHeader = () => {
       initial={{ opacity: 1, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
+      className={styles.headerContainer}
     >
       <header className={styles.header}>
         <div className={styles.langSwitcherContainer}>

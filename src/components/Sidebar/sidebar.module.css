@@ -5,7 +5,7 @@
   z-index: 1;
   background-color: #f5f5f5;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  transition: width 0.3s ease, transform 0.3s ease;
+  /* transition: width 0.3s ease, transform 0.3s ease; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

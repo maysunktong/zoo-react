@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   const { pathname } = useLocation();
 
-  const animals = (() => {
+  const animalsArray = (() => {
     if (pathname.includes("mammals")) return mammals;
     if (pathname.includes("reptiles")) return reptiles;
     if (pathname.includes("birds")) return birds;
@@ -26,7 +26,7 @@ const Sidebar = () => {
       </button>
       {isOpen && (
         <div className={styles.content}>
-          {animals.map((animal) => (
+          {animalsArray.map((animal) => (
             <AnimalCard
               key={animal.name}
               animal={animal}

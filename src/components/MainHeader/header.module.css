@@ -1,12 +1,15 @@
+.headerContainer {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  overflow: hidden;
+}
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--header-bg-light);
-  position: sticky;
-  z-index: 10;
-  top: 0;
-  width: 100%;
 }
 
 .menuContainer {
