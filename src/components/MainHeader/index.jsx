@@ -8,7 +8,7 @@ const MainHeader = () => {
   return (
     <motion.div
       key="box"
-      initial={{ opacity: 1, y: -20 }}
+      initial={{ opacity: 1, y: -5 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeIn" }}
       className={styles.headerContainer}

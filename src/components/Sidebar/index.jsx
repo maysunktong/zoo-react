@@ -1,9 +1,10 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import styles from "./sidebar.module.css";
-import AnimalCard from "../AnimalCard";
-import { allAnimals, mammals, birds, reptiles } from "../../data/animals";
 import { useLocation } from "react-router-dom";
+import { allAnimals, birds, mammals, reptiles } from "../../data/animals";
+import AnimalCard from "../AnimalCard";
+import styles from "./sidebar.module.css";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -18,24 +19,30 @@ const Sidebar = () => {
   })();
 
   return (
-    <div
-      className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}
+    <motion.div
+      className={styles.sidebar}
+      animate={{ width: isOpen ? "300px" : "40px" }}
+      initial={false}
+      transition={{ duration: 0.2, ease: "easeInOut"}}
     >
-      <button onClick={() => setIsOpen(!isOpen)} className={styles.toggleBtn}>
-        {isOpen ? <FaChevronLeft /> : <FaChevronRight />}
-      </button>
-      {isOpen && (
-        <div className={styles.content}>
-          {animalsArray.map((animal) => (
-            <AnimalCard
-              key={animal.name}
-              animal={animal}
-              animalImage={animal.imageUrl}
-            />
-          ))}
-        </div>
-      )}
-    </div>
+      <div
+        className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}
+      >
+        <button onClick={() => setIsOpen(!isOpen)} className={styles.toggleBtn}>
+          {isOpen ? <FaChevronLeft size={24} /> : <FaChevronRight size={24} />}
+        </button>
+        {isOpen && (
+          <div className={styles.content}>
+            {animalsArray.map((animal) => (
+              <AnimalCard
+                key={animal.name}
+                animal={animal}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    </motion.div>
   );
 };
 
