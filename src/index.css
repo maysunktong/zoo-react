@@ -42,3 +42,13 @@ label, select {
     background-color: #fcf8e9;
   }
 }
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  
+}

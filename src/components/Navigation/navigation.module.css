@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .main {
@@ -35,4 +35,11 @@
 .default_linkActive {
   color: orange;
   text-decoration: underline;
+}
+
+/* Tablet & Desktop */
+@media screen and (min-width: 600px) {
+  .nav {
+    gap: 2rem;
+  }
 }

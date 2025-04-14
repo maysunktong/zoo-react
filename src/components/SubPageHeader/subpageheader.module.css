@@ -1,3 +1,4 @@
+/* Mobile first iphone SE */
 .headerContainer {
   position: sticky;
   z-index: 10;
@@ -6,22 +7,62 @@
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 1fr 19fr;
+  display: flex;
+  flex-direction: column;
   background-color: var(--header-bg-light);
-  height: 9rem;
+  height: auto;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .langSwitcherContainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 .menuContainer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0;
+  gap: 1rem;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+  .header {
+    flex-direction: row;
+    height: 7rem;
+    padding: 0 1.5rem;
+  }
+
+  .menuContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 19fr;
+    height: 9rem;
+    padding: 0;
+  }
+
+  .langSwitcherContainer {
+    justify-content: center;
+    padding-left: 2rem;
+  }
+
+  .menuContainer {
+    justify-content: space-between;
+    padding: 0 2rem;
+    flex-direction: row;
+  }
 }
