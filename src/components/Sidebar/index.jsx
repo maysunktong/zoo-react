@@ -23,24 +23,21 @@ const Sidebar = () => {
       className={styles.sidebar}
       animate={{ width: isOpen ? "300px" : "40px" }}
       initial={false}
-      transition={{ duration: 0.2, ease: "easeInOut"}}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
     >
       <div
         className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}
       >
-        <button onClick={() => setIsOpen(!isOpen)} className={styles.toggleBtn}>
-          {isOpen ? <FaChevronLeft size={24} /> : <FaChevronRight size={24} />}
-        </button>
         {isOpen && (
           <div className={styles.content}>
             {animalsArray.map((animal) => (
-              <AnimalCard
-                key={animal.name}
-                animal={animal}
-              />
+              <AnimalCard key={animal.name} animal={animal} />
             ))}
           </div>
         )}
+        <button onClick={() => setIsOpen(!isOpen)} className={styles.toggleBtn}>
+          {isOpen ? <FaChevronLeft size={24} /> : <FaChevronRight size={24} />}
+        </button>
       </div>
     </motion.div>
   );
