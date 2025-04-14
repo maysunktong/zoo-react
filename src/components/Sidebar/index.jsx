@@ -15,7 +15,7 @@ const Sidebar = () => {
     if (pathname.includes("mammals")) return mammals;
     if (pathname.includes("reptiles")) return reptiles;
     if (pathname.includes("birds")) return birds;
-    return allAnimals;
+    return allAnimals.sort(() => Math.random() - 0.5);
   })();
 
   return (
