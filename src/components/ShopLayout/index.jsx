@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import MainHeader from "../MainHeader";
+import styles from "./shop.module.css"
 
 const ShopLayout = () => {
   return (
     <>
       <MainHeader />
-      <main>
+      <main className={styles.main}>
         <Outlet />
       </main>
       <Footer />
