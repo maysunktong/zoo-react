@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import Mammals from "../pages/Mammals";
 import Reptiles from "../pages/Reptiles";
 import Shop from "../pages/Shop";
+import ShopLayout from '../components/ShopLayout';
 
 const routes = [
   {
@@ -42,7 +43,7 @@ const routes = [
     ],
   },
   {
-    element: <MainLayout />,
+    element: <ShopLayout />,
     children: [{ path: "shop", element: <Shop /> }],
   },
 ];
