@@ -8,9 +8,10 @@ const AnimalCard = ({ animal }) => {
 
   const { pathname } = useLocation();
 
+  const basePath = pathname.split("/")[1]; 
   const slug = animal.name.toLowerCase().replaceAll(" ", "-");
-  const isCategoryPage = /\/(mammals|birds|reptiles)$/.test(pathname);
-  const linkTarget = isCategoryPage ? `${pathname}/${slug}` : `/${slug}`;
+  const isCategoryPage = ["mammals", "birds", "reptiles"].includes(basePath);
+  const linkTarget = isCategoryPage ? `/${basePath}/${slug}` : `/${slug}`;
 
   return (
     <div className={styles.animalCardContainer}>
