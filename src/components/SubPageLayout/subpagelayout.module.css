@@ -8,10 +8,14 @@
 .outletContainer {
   display: flex;
   justify-content: center;
-  text-align: center;
   width: 100%;
   min-height: 100vh;
-  flex-grow: 1;
   background-color: yellow;
   padding: 2rem;
+  flex-grow: 1;
+}
+
+.outlet {
+  width: 80%;
+  flex-wrap: wrap;
 }

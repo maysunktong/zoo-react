@@ -15,6 +15,7 @@ const SingleAnimal = () => {
 
   return (
     <div>
+      <img src={animal.imageUrl} alt={animal.name} width={200} />
       <h1>{animalInfo.name}</h1>
       <h2>{animalInfo.description}</h2>
     </div>

@@ -11,7 +11,10 @@ const MainLayout = () => {
       <main className={styles.main}>
         <Sidebar />
         <section className={styles.outletContainer}>
-          <Outlet />
+          <div className={styles.outlet}>
+             <Outlet />
+          </div>
+         
         </section>
       </main>
       <Footer />
