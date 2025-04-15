@@ -1,4 +1,5 @@
 import MainLayout from "../components/MainLayout";
+import SingleAnimal from "../components/SingleAnimal";
 import SubPageLayout from "../components/SubPageLayout";
 import Birds from "../pages/Birds";
 import Home from "../pages/Home";
@@ -9,19 +10,40 @@ import Shop from "../pages/Shop";
 const routes = [
   {
     element: <MainLayout />,
-    children: [{ path: "/", element: <Home /> }],
+    children: [
+      { path: "", element: <Home /> },
+      { path: ":animalName", element: <SingleAnimal /> },
+    ],
   },
   {
     element: <SubPageLayout />,
     children: [
-      { path: "/mammals", element: <Mammals /> },
-      { path: "/birds", element: <Birds /> },
-      { path: "/reptiles", element: <Reptiles /> },
+      {
+        path: "mammals",
+        children: [
+          { index: true, element: <Mammals /> },
+          { path: ":animalName", element: <SingleAnimal /> },
+        ],
+      },
+      {
+        path: "birds",
+        children: [
+          { index: true, element: <Birds /> },
+          { path: ":animalName", element: <SingleAnimal /> },
+        ],
+      },
+      {
+        path: "reptiles",
+        children: [
+          { index: true, element: <Reptiles /> },
+          { path: ":animalName", element: <SingleAnimal /> },
+        ],
+      },
     ],
   },
   {
     element: <MainLayout />,
-    children: [{ path: "/shop", element: <Shop /> }],
+    children: [{ path: "shop", element: <Shop /> }],
   },
 ];
 
