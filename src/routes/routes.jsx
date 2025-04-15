@@ -1,4 +1,5 @@
 import MainLayout from "../components/MainLayout";
+import ShopLayout from "../components/ShopLayout";
 import SingleAnimal from "../components/SingleAnimal";
 import SubPageLayout from "../components/SubPageLayout";
 import Birds from "../pages/Birds";
@@ -6,7 +7,6 @@ import Home from "../pages/Home";
 import Mammals from "../pages/Mammals";
 import Reptiles from "../pages/Reptiles";
 import Shop from "../pages/Shop";
-import ShopLayout from '../components/ShopLayout';
 
 const routes = [
   {

@@ -10,7 +10,9 @@ const SubPageLayout = () => {
       <SubPageHeader />
       <main className={styles.main}>
         <Sidebar />
-        <Outlet />
+        <section className={styles.outletContainer}>
+          <Outlet />
+        </section>
       </main>
       <Footer />
     </>

@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import MainHeader from "../MainHeader";
 import Sidebar from "../Sidebar";
-import styles from "./mainlayout.module.css"
+import styles from "./mainlayout.module.css";
 
 const MainLayout = () => {
   return (
@@ -10,7 +10,9 @@ const MainLayout = () => {
       <MainHeader />
       <main className={styles.main}>
         <Sidebar />
-        <Outlet />
+        <section className={styles.outletContainer}>
+          <Outlet />
+        </section>
       </main>
       <Footer />
     </>

@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  font-size: smaller;
 }
 
 .main {
@@ -14,7 +15,6 @@
 .link {
   color: rgb(130, 130, 130);
   text-decoration: none;
-  transition: color 0.3s;
   font-weight: bold;
 }
 
@@ -41,5 +41,6 @@
 @media screen and (min-width: 600px) {
   .nav {
     gap: 2rem;
+    font-size: large;
   }
 }

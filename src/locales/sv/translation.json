@@ -1,6 +1,7 @@
 {
   "animals": {
     "Echidna": {
+      "name": "Echidna",
       "lifespan": "50 år",
       "food": "insekter som myror och termiter, skalbaggslarver och maskar",
       "description": "Echidnor, även kallade taggiga myrätare, är gåtfulla djur. De är däggdjur, men lägger ägg. De klassificeras ofta som lång- eller kortnosade, men har i själva verket köttiga näsor snarare än näbbar. De är inte nära släkt med riktiga myrätare och deras kroppar är täckta av ihåliga, taggfria piggar.",
@@ -9,6 +10,7 @@
       "found": "Hela Australien"
     },
     "Tasmanian Devil": {
+      "name": "Tasmanian Devil",
       "lifespan": "5 år",
       "food": "kött från andra djur som vallabyer och vombater",
       "description": "Tasmansk djävul är ett köttätande pungdjur. Den är ungefär lika stor som en liten hund och blev världens största köttätande pungdjur efter att pungvargen dog ut 1936.",
@@ -17,6 +19,7 @@
       "found": "Tasmanien"
     },
     "Quokka": {
+      "name": "Quokka",
       "lifespan": "10 år",
       "food": "växter, buskar och gräs",
       "description": "Quokkan beskrevs först av en holländsk upptäcktsresande som en råttliknande varelse i kattstorlek. Den liknar andra vallabyer och har kort, grov gråbrun päls.",
@@ -25,6 +28,7 @@
       "found": "Rottnest Island och delar av västra Australien"
     },
     "Frill-necked Lizard": {
+      "name": "Frill-necked Lizard",
       "lifespan": "20 år",
       "food": "små insekter och spindlar",
       "description": "När denna ödla känner sig hotad reser den sig upp, vecklar ut sitt färgglada nackskinn och väser. Om det inte hjälper, springer den iväg till närmaste träd.",
@@ -33,6 +37,7 @@
       "found": "Norra Australien"
     },
     "Hawksbill Turtle": {
+      "name": "Hawksbill Turtle",
       "lifespan": "50 år",
       "food": "djur som svamp och maneter, samt havsplantor",
       "description": "Hökbillsköldpaddan har ett fågelliknande näbb och ett skal med överlappande sköldar. Honorna väger runt 50 kg och skölden är cirka 80 cm lång.",
@@ -41,6 +46,7 @@
       "found": "Tropiska kuster i Queensland, Northern Territory och västra Australien"
     },
     "Perentie": {
+      "name": "Perentie",
       "lifespan": "20 år",
       "food": "köttätare, äter t.ex. känguruer, kaniner, ödlor och fåglar",
       "description": "Perentie är Australiens största monitorödla. Den är skygg och lever i avlägsna ökenområden. Den har varit en viktig del i aboriginernas kultur.",
@@ -49,6 +55,7 @@
       "found": "Öknar"
     },
     "Cassowary": {
+      "name": "Cassowary",
       "lifespan": "20 år",
       "food": "växter, frukter, insekter och smådjur",
       "description": "Kasuaren är en stor, flygoförmögen fågel med kraftiga ben. Den är skygg men kan vara farlig när den provoceras.",
@@ -57,6 +64,7 @@
       "found": "Queensland"
     },
     "Kookaburra": {
+      "name": "Kookaburra",
       "lifespan": "20 år",
       "food": "insekter och smådjur som ormar, grodor och ödlor",
       "description": "Skrattkookaburran är den största medlemmen i kungsfiskarfamiljen och känd för sitt skrattliknande läte.",
@@ -65,6 +73,7 @@
       "found": "Hela Australien"
     },
     "Yellow Tailed Black Cockatoo": {
+      "name": "Yellow Tailed Black Cockatoo",
       "lifespan": "41 år",
       "food": "frukt, frön och växtmaterial",
       "description": "Denna kakadua har mörk fjäderdräkt med gula markeringar, flyger långsamt och har ett sorgset läte.",

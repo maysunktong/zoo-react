@@ -1,11 +1,7 @@
-// import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import styles from "./animalcard.module.css";
 
 const AnimalCard = ({ animal }) => {
-  // const { t } = useTranslation();
-  // const animalInfo = t(`animals.${animal.name}`, { returnObjects: true });
-
   const { pathname } = useLocation();
 
   const basePath = pathname.split("/")[1]; 

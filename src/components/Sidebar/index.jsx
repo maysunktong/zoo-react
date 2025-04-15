@@ -23,7 +23,7 @@ const Sidebar = () => {
       className={styles.sidebar}
       animate={{ width: isOpen ? "300px" : "40px" }}
       initial={false}
-      transition={{ duration: 0.2, ease: "easeInOut" }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
     >
       <div
         className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}

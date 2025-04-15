@@ -1,6 +1,7 @@
 {
   "animals": {
     "Echidna": {
+      "name": "Echidna",
       "lifespan": "50 years",
       "food": "insects such as ants and termites, beetle larvae and worms",
       "description": "Echidnas, also called spiny anteaters, are walking contradictions. They are mammals, but they lay eggs. They have fleshy noses instead of beaks, and their bodies are covered in hollow, barbless quills.",
@@ -9,6 +10,7 @@
       "found": "Throughout Australia"
     },
     "Tasmanian Devil": {
+      "name": "Tasmanian Devil",
       "lifespan": "5 years",
       "food": "meat from animals such as wallabies and wombats",
       "description": "The Tasmanian devil is a carnivorous marsupial. About the size of a small dog, it became the largest carnivorous marsupial after the thylacine's extinction in 1936.",
@@ -17,6 +19,7 @@
       "found": "Tasmania"
     },
     "Quokka": {
+      "name": "Quokka",
       "lifespan": "10 years",
       "food": "plants such as shrubs and grasses",
       "description": "The quokka resembles other wallabies and was first described as a rat-sized cat. It has coarse grey-brown fur and a short, mostly hairless tail.",
@@ -25,6 +28,7 @@
       "found": "Rottnest Island and parts of Western Australia"
     },
     "Frill-necked Lizard": {
+      "name": "Frill-necked Lizard",
       "lifespan": "20 years",
       "food": "small insects and spiders",
       "description": "When threatened, this lizard rises on its hind legs, opens its yellow mouth, unfurls its colorful frill, and hisses. If that fails, it runs to the nearest tree.",
@@ -33,6 +37,7 @@
       "found": "Northern Australia"
     },
     "Hawksbill Turtle": {
+      "name": "Hawksbill Turtle",
       "lifespan": "50 years",
       "food": "animals like sponges and jellyfish, and sea plants",
       "description": "The Hawksbill Turtle has a bird-like beak and a shell with overlapping scutes and serrated edges. Females average 50kg and have an 80cm shell.",
@@ -41,6 +46,7 @@
       "found": "Tropical coasts of Queensland, Northern Territory, and Western Australia"
     },
     "Perentie": {
+      "name": "Perentie",
       "lifespan": "20 years",
       "food": "carnivorous, eats animals like kangaroos, rabbits, lizards, and birds",
       "description": "The Perentie is Australia's largest monitor lizard. It is shy and lives in remote deserts. It held cultural significance for Aboriginal people.",
@@ -49,6 +55,7 @@
       "found": "Deserts"
     },
     "Cassowary": {
+      "name": "Cassowary",
       "lifespan": "20 years",
       "food": "plant matter like fruit, insects, and small animals",
       "description": "Cassowaries are large, flightless birds with powerful legs and a prehistoric appearance. Though shy, they can be dangerous when provoked.",
@@ -57,6 +64,7 @@
       "found": "Queensland"
     },
     "Kookaburra": {
+      "name": "Kookaburra",
       "lifespan": "20 years",
       "food": "insects and small animals including snakes, frogs, and lizards",
       "description": "The laughing kookaburra is the largest member of the kingfisher family, known for its distinctive call that sounds like laughter.",
@@ -65,6 +73,7 @@
       "found": "Australia wide"
     },
     "Yellow Tailed Black Cockatoo": {
+      "name": "Yellow Tailed Black Cockatoo",
       "lifespan": "41 years",
       "food": "fruit, seeds, and other plant material",
       "description": "These cockatoos have dark feathers with yellow markings. They fly slowly with a wailing call and are found in temperate forests of southeastern Australia.",
