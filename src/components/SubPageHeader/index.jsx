@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../../../public/assets/logo/logo.png";
+import logo from "/assets/logo/logo.png";
 import LanguageSwitcher from "../LanguageSwitcher";
 import Navigation from "../Navigation";
 import styles from "./subpageheader.module.css";
