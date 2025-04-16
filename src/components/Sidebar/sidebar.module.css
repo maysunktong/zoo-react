@@ -3,7 +3,7 @@
   top: 0;
   height: 100vh;
   z-index: 1;
-  background-color: var(--header-bg-light);
+  background-color: #e6e6e6;
   display: grid;
   grid-template-columns: 20fr 1fr;
   border-radius: 0 18px 18px 0;
@@ -21,7 +21,7 @@
 }
 
 .toggleBtn {
-  background-color: var(--header-bg-light);
+  background-color: #e6e6e6;
   border: none;
   cursor: pointer;
   color: #78a18a;

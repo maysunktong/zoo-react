@@ -10,12 +10,11 @@
   justify-content: center;
   width: 100%;
   min-height: 100vh;
-  background-color: yellow;
-  padding: 2rem;
+  background-color: #FCF8E9;
   flex-grow: 1;
 }
 
 .outlet {
-  width: 80%;
+  width: 100%;
   flex-wrap: wrap;
 }

@@ -12,6 +12,7 @@ export const mammals = [
     weight: "10kg",
     found: "Throughout Australia",
     imageUrl: getImagePath("echidna"),
+    previewImageUrl: getImagePath("echidna2", "webp")
   },
   {
     name: "Tasmanian Devil",
@@ -24,6 +25,7 @@ export const mammals = [
     weight: "10kg",
     found: "Tasmania",
     imageUrl: getImagePath("Tasmanian Devil"),
+    previewImageUrl: getImagePath("Tasmanian Devil2")
   },
   {
     name: "Quokka",
@@ -37,6 +39,7 @@ export const mammals = [
     found:
       "Only found on Rottnest Island and a few places on mainland Western Australia",
     imageUrl: getImagePath("Quokka"),
+    previewImageUrl: getImagePath("Quokka2", "gif")
   },
 ];
 
@@ -52,6 +55,7 @@ export const reptiles = [
     weight: "1kg",
     found: "Northern Australia",
     imageUrl: getImagePath("Frill-necked Lizard"),
+    previewImageUrl: getImagePath("Frill-necked Lizard2", "gif")
   },
   {
     name: "Hawksbill Turtle",
@@ -65,6 +69,7 @@ export const reptiles = [
     found:
       "Tropical coasts of Queensland, Northern Territory and Western Australia",
     imageUrl: getImagePath("Hawksbill Turtle"),
+    previewImageUrl: getImagePath("Hawksbill Turtle2", "gif")
   },
   {
     name: "Perentie",
@@ -77,6 +82,7 @@ export const reptiles = [
     weight: "20kg",
     found: "Deserts",
     imageUrl: getImagePath("Perentie"),
+    previewImageUrl: getImagePath("Perentie2")
   },
 ];
 
@@ -92,6 +98,7 @@ export const birds = [
     weight: "44kg",
     found: "Queensland",
     imageUrl: getImagePath("Cassowary"),
+    previewImageUrl: getImagePath("Cassowary2")
   },
   {
     name: "Kookaburra",
@@ -104,6 +111,7 @@ export const birds = [
     weight: "300g",
     found: "Australia wide",
     imageUrl: getImagePath("Kookaburra"),
+    previewImageUrl: getImagePath("Kookaburra2")
   },
   {
     name: "Yellow Tailed Black Cockatoo",
@@ -116,6 +124,7 @@ export const birds = [
     weight: "900g",
     found: "SE Australia",
     imageUrl: getImagePath("Yellow Tailed Black Cockatoo"),
+    previewImageUrl: getImagePath("Yellow Tailed Black Cockatoo2")
   },
 ];
 
