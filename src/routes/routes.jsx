@@ -12,7 +12,7 @@ const routes = [
   {
     element: <MainLayout />,
     children: [
-      { path: "", element: <Home /> },
+      { path: "/", element: <Home /> },
       { path: ":animalName", element: <SingleAnimal /> },
     ],
   },
