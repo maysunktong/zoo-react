@@ -39,7 +39,7 @@ export const mammals = [
     found:
       "Only found on Rottnest Island and a few places on mainland Western Australia",
     imageUrl: getImagePath("Quokka"),
-    previewImageUrl: getImagePath("Quokka2", "gif")
+    previewImageUrl: getImagePath("Quokka2", "webp")
   },
 ];
 
@@ -55,7 +55,7 @@ export const reptiles = [
     weight: "1kg",
     found: "Northern Australia",
     imageUrl: getImagePath("Frill-necked Lizard"),
-    previewImageUrl: getImagePath("Frill-necked Lizard2", "gif")
+    previewImageUrl: getImagePath("Frill-necked Lizard")
   },
   {
     name: "Hawksbill Turtle",
@@ -69,7 +69,7 @@ export const reptiles = [
     found:
       "Tropical coasts of Queensland, Northern Territory and Western Australia",
     imageUrl: getImagePath("Hawksbill Turtle"),
-    previewImageUrl: getImagePath("Hawksbill Turtle2", "gif")
+    previewImageUrl: getImagePath("Hawksbill Turtle2")
   },
   {
     name: "Perentie",

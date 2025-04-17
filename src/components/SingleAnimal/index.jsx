@@ -29,8 +29,12 @@ const SingleAnimal = () => {
       <div className={styles.imageContainer}>
         <img src={animal.previewImageUrl} alt={animal.name} width={200} />
       </div>
-      <h1>{animalInfo.name}</h1>
-      <h2>{animalInfo.description}</h2>
+      <div className={styles.textContainer}>
+        <div className={styles.textField}>
+          <h1>{animalInfo.name}</h1>
+          <h2>{animalInfo.description}</h2>
+        </div>
+      </div>
     </motion.div>
   );
 };

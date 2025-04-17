@@ -14,7 +14,6 @@ const MainLayout = () => {
           <div className={styles.outlet}>
              <Outlet />
           </div>
-         
         </section>
       </main>
       <Footer />
