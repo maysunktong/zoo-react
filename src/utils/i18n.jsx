@@ -11,11 +11,11 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translation: translationEN },
       sv: { translation: translationSV },
+      en: { translation: translationEN },
       th: { translation: translationTH },
     },
-    fallbackLng: "en",
+    fallbackLng: "sv",
     detection: {
       // clean saved language
       caches: [],

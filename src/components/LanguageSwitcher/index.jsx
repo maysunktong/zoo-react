@@ -8,6 +8,7 @@ const LanguageSwitcher = () => {
 
   return (
     <div className={styles.langContainer}>
+      <label>{t("ui.selectLanguage")}:</label>
       <select
         onChange={(e) => changeLanguage(e.target.value)}
         value={i18n.language}
