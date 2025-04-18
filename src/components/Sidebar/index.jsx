@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import { useSidebar } from "../../context/SidebarContext";
@@ -17,16 +16,6 @@ const Sidebar = () => {
     if (pathname.includes("birds")) return birds;
     return allAnimals;
   })();
-
-  useEffect(() => {
-    let timer;
-    if (isOpen) {
-      timer = setTimeout(() => {
-        setIsOpen(false);
-      }, 4000);
-    }
-    return () => clearTimeout(timer);
-  }, [isOpen, setIsOpen]);
 
   return (
     <motion.div
