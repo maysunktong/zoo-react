@@ -11,7 +11,7 @@
 
   color-scheme: light dark;
   color: #213547;
-  background-color: #fcf8e9;
+  background-color: #104911;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -40,7 +40,7 @@ select {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #fcf8e9;
+    background-color: #104911;
   }
 }
 
