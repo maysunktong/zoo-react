@@ -42,10 +42,10 @@ const routes = [
       },
     ],
   },
-  {
-    element: <ShopLayout />,
-    children: [{ path: "shop", element: <Shop /> }],
-  },
+  // {
+  //   element: <ShopLayout />,
+  //   children: [{ path: "shop", element: <Shop /> }],
+  // },
 ];
 
 export default routes;

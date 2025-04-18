@@ -35,9 +35,9 @@ const Navigation = ({ layout = "default" }) => {
       <NavLink to="/birds" className={({ isActive }) => getLinkClass(isActive)}>
         {tNavigation.birds}
       </NavLink>
-      <NavLink to="/shop" className={({ isActive }) => getLinkClass(isActive)}>
+      {/* <NavLink to="/shop" className={({ isActive }) => getLinkClass(isActive)}>
         {tNavigation.shop}
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 };
