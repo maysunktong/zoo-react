@@ -1,0 +1,59 @@
+.imageContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.heroText h1 {
+  font-size: 1.5rem;
+}
+
+.heroText button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #78a18a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heroText button:hover {
+  background-color: #e68900;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Tablet & Desktop */
+@media screen and (min-width: 600px) {
+  .heroText h1 {
+    font-size: 3rem;
+  }
+
+  .heroText p {
+    font-size: 1.5rem;
+  }
+}

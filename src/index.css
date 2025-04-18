@@ -10,8 +10,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #201407;
+  color: #213547;
+  background-color: #fcf8e9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,7 +32,8 @@ a {
   text-decoration: none;
 }
 
-label, select {
+label,
+select {
   color: rgba(255, 255, 255, 0.87);
 }
 
@@ -45,10 +46,8 @@ label, select {
 
 /* Tablet */
 @media screen and (min-width: 600px) {
-
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-  
 }

@@ -1,4 +1,7 @@
+import HeroImage from "../../components/HeroImage";
+import birds from "/assets/animals/birds.jpg";
+
 const Birds = () => {
-  return <h1>Birds</h1>;
+  return <HeroImage image={birds} buttonText="Explore" />;
 };
 export default Birds;

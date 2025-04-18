@@ -1,4 +1,7 @@
+import HeroImage from "../../components/HeroImage";
+import mammals from "/assets/animals/mammals.jpg";
+
 const Mammals = () => {
-  return <h1>Mammals</h1>;
+  return <HeroImage image={mammals} buttonText="Explore" />;
 };
 export default Mammals;

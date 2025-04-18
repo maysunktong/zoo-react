@@ -7,7 +7,7 @@ import AnimalCard from "../AnimalCard";
 import styles from "./sidebar.module.css";
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const { pathname } = useLocation();
 
