@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { SidebarProvider } from "../../context/SidebarContext";
 import Footer from "../Footer";
 import MainHeader from "../MainHeader";
 import Sidebar from "../Sidebar";
@@ -8,14 +9,16 @@ const MainLayout = () => {
   return (
     <>
       <MainHeader />
-      <main className={styles.main}>
-        <Sidebar />
-        <section className={styles.outletContainer}>
-          <div className={styles.outlet}>
-             <Outlet />
-          </div>
-        </section>
-      </main>
+      <SidebarProvider>
+        <main className={styles.main}>
+          <Sidebar />
+          <section className={styles.outletContainer}>
+            <div className={styles.outlet}>
+              <Outlet />
+            </div>
+          </section>
+        </main>
+      </SidebarProvider>
       <Footer />
     </>
   );

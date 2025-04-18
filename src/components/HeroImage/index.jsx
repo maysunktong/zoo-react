@@ -1,13 +1,21 @@
+import { useSidebar } from "../../context/SidebarContext";
 import styles from "./heroimage.module.css";
 
-const HeroImage = ({ image, buttonText }) => {
+const HeroImage = ({
+  header = "header",
+  subheader = "subheader",
+  image,
+  buttonText = "button",
+}) => {
+  const { setIsOpen } = useSidebar();
+
   return (
     <div className={styles.imageContainer}>
       <img src={image} alt="hero image" width={200} />
       <div className={styles.heroText}>
-        <h1>Welcome to Sanctuary Zoo</h1>
-        <p>Meet our animals and activities</p>
-        <button>{buttonText}</button>
+        <h1>{header}</h1>
+        <p>{subheader}</p>
+        <button onClick={() => setIsOpen(true)}>{buttonText}</button>
       </div>
     </div>
   );

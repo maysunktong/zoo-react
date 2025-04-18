@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.animalCard:hover {
+  border: solid 1px #5a615a;
+}
+
 .animalCard img {
   height: 75%;
   width: 100%;
@@ -34,6 +38,11 @@
   padding: 12px;
   font-size: smaller;
   color: black;
+}
+
+.active {
+  border: solid 2px #104911;
+  scale: 1.1;
 }
 
 /* Tablet & Desktop */

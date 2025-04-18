@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
+import { useSidebar } from "../../context/SidebarContext";
 import { allAnimals, birds, mammals, reptiles } from "../../data/animals";
 import AnimalCard from "../AnimalCard";
 import styles from "./sidebar.module.css";
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
+  const { isOpen, setIsOpen } = useSidebar();
   const { pathname } = useLocation();
 
   const animalsArray = (() => {
@@ -18,12 +18,22 @@ const Sidebar = () => {
     return allAnimals;
   })();
 
+  useEffect(() => {
+    let timer;
+    if (isOpen) {
+      timer = setTimeout(() => {
+        setIsOpen(false);
+      }, 4000);
+    }
+    return () => clearTimeout(timer);
+  }, [isOpen, setIsOpen]);
+
   return (
     <motion.div
       className={styles.sidebar}
       animate={{ width: isOpen ? "300px" : "40px" }}
       initial={false}
-      transition={{ duration: 0.3, ease: "easeInOut" }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <div
         className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}
