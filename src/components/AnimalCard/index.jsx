@@ -1,9 +1,11 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useSidebar } from "../../context/SidebarContext";
 import styles from "./animalcard.module.css";
 
 const AnimalCard = ({ animal }) => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
+  const { setIsOpen } = useSidebar();
 
   const basePath = pathname.split("/")[1];
   const slug = animal.name.toLowerCase().replaceAll(" ", "-");
@@ -12,6 +14,7 @@ const AnimalCard = ({ animal }) => {
   const isActive = pathname === linkTarget;
 
   const handleClick = (e) => {
+    setIsOpen(false);
     if (isActive) {
       e.preventDefault();
       if (isCategoryPage) {
