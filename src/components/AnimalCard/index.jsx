@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSidebar } from "../../context/SidebarContext";
 import styles from "./animalcard.module.css";
@@ -25,6 +26,10 @@ const AnimalCard = ({ animal }) => {
     }
   };
 
+  // Translation
+  const { t } = useTranslation();
+  const animalInfo = t(`animals.${animal.name}`, { returnObjects: true });
+
   return (
     <div className={styles.animalCardContainer}>
       <Link to={linkTarget} onClick={handleClick}>
@@ -32,7 +37,7 @@ const AnimalCard = ({ animal }) => {
           className={`${styles.animalCard} ${isActive ? styles.active : ""}`}
         >
           <img src={animal.imageUrl} alt={animal.name} />
-          <p>{animal.name}</p>
+          <p>{animalInfo.name}</p>
         </div>
       </Link>
     </div>

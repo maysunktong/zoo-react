@@ -1,7 +1,7 @@
 {
   "animals": {
     "Echidna": {
-      "name": "Echidna",
+      "name": "Myrpiggsvin",
       "lifespan": "50 år",
       "food": "insekter som myror och termiter, skalbaggslarver och maskar",
       "description": "Echidnor, även kallade taggiga myrätare, är gåtfulla djur. De är däggdjur, men lägger ägg. De klassificeras ofta som lång- eller kortnosade, men har i själva verket köttiga näsor snarare än näbbar. De är inte nära släkt med riktiga myrätare och deras kroppar är täckta av ihåliga, taggfria piggar.",
@@ -10,7 +10,7 @@
       "found": "Hela Australien"
     },
     "Tasmanian Devil": {
-      "name": "Tasmanian Devil",
+      "name": "Tasmansk djävul",
       "lifespan": "5 år",
       "food": "kött från andra djur som vallabyer och vombater",
       "description": "Tasmansk djävul är ett köttätande pungdjur. Den är ungefär lika stor som en liten hund och blev världens största köttätande pungdjur efter att pungvargen dog ut 1936.",
@@ -28,7 +28,7 @@
       "found": "Rottnest Island och delar av västra Australien"
     },
     "Frill-necked Lizard": {
-      "name": "Frill-necked Lizard",
+      "name": "Kragskrudsödla",
       "lifespan": "20 år",
       "food": "små insekter och spindlar",
       "description": "När denna ödla känner sig hotad reser den sig upp, vecklar ut sitt färgglada nackskinn och väser. Om det inte hjälper, springer den iväg till närmaste träd.",
@@ -37,7 +37,7 @@
       "found": "Norra Australien"
     },
     "Hawksbill Turtle": {
-      "name": "Hawksbill Turtle",
+      "name": "Hökbillsköldpadda",
       "lifespan": "50 år",
       "food": "djur som svamp och maneter, samt havsplantor",
       "description": "Hökbillsköldpaddan har ett fågelliknande näbb och ett skal med överlappande sköldar. Honorna väger runt 50 kg och skölden är cirka 80 cm lång.",
@@ -55,7 +55,7 @@
       "found": "Öknar"
     },
     "Cassowary": {
-      "name": "Cassowary",
+      "name": "Kasuar",
       "lifespan": "20 år",
       "food": "växter, frukter, insekter och smådjur",
       "description": "Kasuaren är en stor, flygoförmögen fågel med kraftiga ben. Den är skygg men kan vara farlig när den provoceras.",
@@ -64,7 +64,7 @@
       "found": "Queensland"
     },
     "Kookaburra": {
-      "name": "Kookaburra",
+      "name": "Skrattfågel",
       "lifespan": "20 år",
       "food": "insekter och smådjur som ormar, grodor och ödlor",
       "description": "Skrattkookaburran är den största medlemmen i kungsfiskarfamiljen och känd för sitt skrattliknande läte.",
@@ -73,7 +73,7 @@
       "found": "Hela Australien"
     },
     "Yellow Tailed Black Cockatoo": {
-      "name": "Yellow Tailed Black Cockatoo",
+      "name": "Svart kakadua med gul stjärt",
       "lifespan": "41 år",
       "food": "frukt, frön och växtmaterial",
       "description": "Denna kakadua har mörk fjäderdräkt med gula markeringar, flyger långsamt och har ett sorgset läte.",
@@ -83,6 +83,35 @@
     }
   },
   "ui": {
-    "selectLanguage": "Språk"
+    "selectLanguage": "Språk",
+    "navigation": {
+      "home": "Hem",
+      "mammals": "Däggdjur",
+      "reptiles": "Reptiler",
+      "birds": "Fåglar",
+      "shop": "Butik"
+    },
+    "hero": {
+      "main": {
+        "header": "Vårt Fristadszoo",
+        "subheader": "Vilda under, omhändertagna och skyddade med hjärta.",
+        "button": "Utforska Zoo"
+      },
+      "mammals": {
+        "header": "Däggdjur",
+        "subheader": "Upptäck djurrikets varmblodiga under, från lejon till valar.",
+        "button": "Våra Däggdjur"
+      },
+      "reptiles": {
+        "header": "Reptiler",
+        "subheader": "Avslöja de uråldriga reptilernas hemligheter – från slingrande ormar till soldyrkande ödlor.",
+        "button": "Våra Reptiler"
+      },
+      "birds": {
+        "header": "Fåglar",
+        "subheader": "Utforska fåglarnas fascinerande värld – från små kolibrier till mäktiga örnar.",
+        "button": "Våra Fåglar"
+      }
+    }
   }
 }

@@ -1,21 +1,21 @@
+import { useTranslation } from "react-i18next";
 import { useSidebar } from "../../context/SidebarContext";
 import styles from "./heroimage.module.css";
 
-const HeroImage = ({
-  header = "header",
-  subheader = "subheader",
-  image,
-  buttonText = "button",
-}) => {
+const HeroImage = ({ page = "", image }) => {
   const { setIsOpen } = useSidebar();
+
+  // Translation
+  const { t } = useTranslation();
+  const tHeroImage = t(`ui.hero.${page}`, { returnObjects: true });
 
   return (
     <div className={styles.imageContainer}>
       <img src={image} alt="hero image" width={200} />
       <div className={styles.heroText}>
-        <h1>{header}</h1>
-        <p>{subheader}</p>
-        <button onClick={() => setIsOpen(true)}>{buttonText}</button>
+        <h1>{tHeroImage.header}</h1>
+        <p>{tHeroImage.subheader}</p>
+        <button onClick={() => setIsOpen(true)}>{tHeroImage.button}</button>
       </div>
     </div>
   );

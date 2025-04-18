@@ -83,6 +83,35 @@
     }
   },
   "ui": {
-    "selectLanguage": "Language"
+    "selectLanguage": "Language",
+    "navigation": {
+      "home": "Home",
+      "mammals": "Mammals",
+      "reptiles": "Reptiles",
+      "birds": "Birds",
+      "shop": "Shop"
+    },
+    "hero": {
+      "main": {
+        "header": "Our Sanctuary Zoo",
+        "subheader": "Wildlife wonders, cared for and protected with heart.",
+        "button": "Explore Zoo"
+      },
+      "mammals": {
+        "header": "Mammals",
+        "subheader": "Discover the warm-blooded wonders of the animal kingdom, from lions to whales.",
+        "button": "Our Mammals"
+      },
+      "reptiles": {
+        "header": "Reptiles",
+        "subheader": "Uncover the secrets of ancient reptiles — from slithering snakes to sun-loving lizards.",
+        "button": "Our Reptiles"
+      },
+      "birds": {
+        "header": "Birds",
+        "subheader": "Explore the fascinating world of birds — from tiny hummingbirds to mighty eagles",
+        "button": "Our Birds"
+      }
+    }
   }
 }

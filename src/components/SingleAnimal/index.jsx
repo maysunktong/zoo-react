@@ -12,6 +12,7 @@ const SingleAnimal = () => {
 
   if (!animal) return <div>Animal not found.</div>;
 
+  // Translation
   const { t } = useTranslation();
   const animalInfo = t(`animals.${animal.name}`, { returnObjects: true });
 
