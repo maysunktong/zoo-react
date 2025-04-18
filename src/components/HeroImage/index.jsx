@@ -12,6 +12,7 @@ const HeroImage = ({ page = "", image }) => {
   return (
     <div className={styles.imageContainer}>
       <img src={image} alt="hero image" width={200} />
+
       <div className={styles.heroText}>
         <h1>{tHeroImage.header}</h1>
         <p>{tHeroImage.subheader}</p>

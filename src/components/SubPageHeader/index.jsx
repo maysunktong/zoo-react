@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import logo from "/assets/logo/logo.png";
+import { Link } from "react-router-dom";
 import LanguageSwitcher from "../LanguageSwitcher";
 import Navigation from "../Navigation";
 import styles from "./subpageheader.module.css";
+import logo from "/assets/logo/logo.png";
 
 const SubPageHeader = () => {
   return (
@@ -18,7 +19,9 @@ const SubPageHeader = () => {
           <LanguageSwitcher />
         </div>
         <div className={styles.menuContainer}>
-          <img src={logo} alt="logo" width={200} />
+          <Link to={"/"}>
+            <img src={logo} alt="logo" width={200} />
+          </Link>
           <Navigation layout="subpage" />
         </div>
       </header>

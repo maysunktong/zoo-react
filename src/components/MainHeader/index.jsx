@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import logo from "/assets/logo/logo.png";
+import { Link } from "react-router-dom";
 import LanguageSwitcher from "../LanguageSwitcher";
 import Navigation from "../Navigation";
 import styles from "./header.module.css";
+import logo from "/assets/logo/logo.png";
 
 const MainHeader = () => {
   return (
@@ -19,7 +20,9 @@ const MainHeader = () => {
         </div>
         <div className={styles.menuContainer}>
           <div className={styles.logoContainer}>
-            <img src={logo} alt="logo" width={200} />
+            <Link to={"/"}>
+              <img src={logo} alt="logo" width={200} />
+            </Link>
           </div>
           <Navigation layout="main" />
         </div>
