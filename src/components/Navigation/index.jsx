@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import styles from "./navigation.module.css";
 
-const Navigation = ({ layout = "default" }) => {
+const Navigation = ({ layout = "" }) => {
   const getLinkClass = (isActive) => {
     const base = styles.link;
     const layoutLink = styles[`${layout}_link`] || "";

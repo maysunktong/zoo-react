@@ -1,6 +1,6 @@
 .animalContainer {
   background-color: #fcf8e9;
-  height: 100%;
+  min-height: 100%;
 }
 
 .imageContainer {
@@ -25,4 +25,5 @@
 
 .textField {
   width: 60%;
+  height: 100%;
 }

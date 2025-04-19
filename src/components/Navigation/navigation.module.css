@@ -32,11 +32,6 @@
   font-weight: bold;
 }
 
-.default_linkActive {
-  color: orange;
-  text-decoration: underline;
-}
-
 /* Tablet & Desktop */
 @media screen and (min-width: 600px) {
   .nav {
