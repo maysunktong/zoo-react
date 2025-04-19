@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--header-bg-light);
+  background-color: #004b23;
 }
 
 .menuContainer {

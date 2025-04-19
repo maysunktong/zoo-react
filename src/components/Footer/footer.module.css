@@ -1,17 +1,35 @@
-.footer {
-  --s: 60px; /* control the size*/
-  --c1: #104911;
-  --c2: #747053;
+.footerContainer {
+  background-color: #004b23;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: whitesmoke;
+  padding: 2rem 0;
+}
 
-  --_s: calc(2 * var(--s)) calc(2 * var(--s));
-  --_g: 35.36% 35.36% at;
-  --_c: #0000 66%, var(--c2) 68% 70%, #0000 72%;
-  background: radial-gradient(var(--_g) 100% 25%, var(--_c)) var(--s) var(--s) /
-      var(--_s),
-    radial-gradient(var(--_g) 0 75%, var(--_c)) var(--s) var(--s) / var(--_s),
-    radial-gradient(var(--_g) 100% 25%, var(--_c)) 0 0 / var(--_s),
-    radial-gradient(var(--_g) 0 75%, var(--_c)) 0 0 / var(--_s),
-    repeating-conic-gradient(var(--c1) 0 25%, #0000 0 50%) 0 0 / var(--_s),
-    radial-gradient(var(--_c)) 0 calc(var(--s) / 2) / var(--s) var(--s)
-      var(--c1);
+.footerTop {
+  text-align: center;
+}
+
+.footerTop img  {
+  padding: 12px 0;
+  width: 100px;
+}
+
+.footerBottom {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid whitesmoke;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+/* Tablet & Desktop */
+@media screen and (min-width: 600px) {
+  .footerTop img  {
+    width: 200px;
+  }
 }

@@ -26,6 +26,7 @@ const SingleAnimal = () => {
         stiffness: 200,
         damping: 25,
       }}
+      className={styles.animalContainer}
     >
       <div className={styles.imageContainer}>
         <img src={animal.previewImageUrl} alt={animal.name} width={200} />

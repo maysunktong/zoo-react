@@ -8,7 +8,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-color: var(--header-bg-light);
+  background-color: #004b23;
   height: auto;
   padding: 1rem;
   gap: 1rem;

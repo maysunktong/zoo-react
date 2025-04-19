@@ -11,14 +11,14 @@
 
   color-scheme: light dark;
   color: #213547;
-  background-color: #104911;
+  background-color: #004b23;;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --header-bg-light: #104911;
+  --header-bg-light: #004b23;
   --header-bg-dark: #261104;
 }
 
@@ -40,7 +40,6 @@ select {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #104911;
   }
 }
 
