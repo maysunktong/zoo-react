@@ -5,7 +5,7 @@ import { HiMiniMagnifyingGlassCircle } from "react-icons/hi2";
 import { IoLocation } from "react-icons/io5";
 import { Link, useParams } from "react-router-dom";
 import { allAnimals } from "../../data/animals";
-import ReadMoreSection from "../Readmore";
+import ReadMoreSection from "../ReadMore";
 import styles from "./singleanimal.module.css";
 
 const slugify = (str) => str.toLowerCase().replaceAll(" ", "-");
