@@ -47,7 +47,7 @@ export const reptiles = [
   {
     name: "Frill-necked Lizard",
     lifespan: "20 years",
-    group: "reptile",
+    group: "reptiles",
     food: "Small insects and spiders",
     description:
       "When this unique creature feels threatened, it rises on its hind legs, opens its yellow-coloured mouth, unfurls the colorful, pleated skin flap that encircles its head, and hisses. If that doesn't work, it bolts to the nearest tree.",
@@ -60,7 +60,7 @@ export const reptiles = [
   {
     name: "Hawksbill Turtle",
     lifespan: "50 years",
-    group: "reptile",
+    group: "reptiles",
     food: "other animals (sponges & jellyfish), sea plants",
     description:
       "The Hawksbill Sea Turtle gets its name from its bird-like beak. Its shell is covered in large overlapping scutes with a serrated edge. The flippers have two visible claws. Females average 50 kg and the shell is about 80 cm long.",
@@ -74,7 +74,7 @@ export const reptiles = [
   {
     name: "Perentie",
     lifespan: "20 years",
-    group: "reptile",
+    group: "reptiles",
     food: "Carnivore, they eat animals like kangaroos, rabbits, lizards and birds",
     description:
       "The perentie (Varanus giganteus) is the largest monitor lizard or goanna native to Australia. It is shy and mostly found in remote arid areas. Revered in Aboriginal culture, it was once a key source of food and medicine.",
@@ -90,7 +90,7 @@ export const birds = [
   {
     name: "Cassowary",
     lifespan: "20 years",
-    group: "bird",
+    group: "birds",
     food: "Plants matter like fruit, insects and small animals like mice and lizards",
     description:
       "Cassowaries are large, flightless birds with powerful legs and dinosaur-like looks. They are shy but can be dangerous when provoked. Their attacks can be deadly.",
@@ -103,7 +103,7 @@ export const birds = [
   {
     name: "Kookaburra",
     lifespan: "20 years",
-    group: "bird",
+    group: "birds",
     food: "Insects and small animals including snakes, frogs and lizards",
     description:
       "The laughing kookaburra is the largest member of the Kingfisher family, known for its call that sounds like laughter. It's native to eucalyptus forests and has been introduced elsewhere.",
@@ -116,7 +116,7 @@ export const birds = [
   {
     name: "Yellow Tailed Black Cockatoo",
     lifespan: "41 years",
-    group: "bird",
+    group: "birds",
     food: "Fruit, seeds and other plant material",
     description:
       "With dark plumage and yellow markings, these cockatoos are found in temperate forests across SE Australia. They have a heavy, slow flying pattern and wailing calls.",

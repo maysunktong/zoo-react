@@ -102,23 +102,23 @@
     },
     "hero": {
       "main": {
-        "header": "Vårt Fristadszoo",
+        "header": "Vårt Sanctuary Djurpark",
         "subheader": "Vilda under, omhändertagna och skyddade med hjärta.",
         "button": "Utforska Zoo"
       },
       "mammals": {
         "header": "Däggdjur",
-        "subheader": "Upptäck djurrikets varmblodiga under, från lejon till valar.",
+        "subheader": "Australiens däggdjur inkluderar unika pungdjur som känguruer och koalor, kända för sina pungar och anpassningsförmåga.",
         "button": "Våra Däggdjur"
       },
       "reptiles": {
         "header": "Reptiler",
-        "subheader": "Avslöja de uråldriga reptilernas hemligheter – från slingrande ormar till soldyrkande ödlor.",
+        "subheader": "Australien har många reptiler, inklusive krokodiler, ormar och ödlor, som trivs i olika klimat från öknar till våtmarker.",
         "button": "Våra Reptiler"
       },
       "birds": {
         "header": "Fåglar",
-        "subheader": "Utforska fåglarnas fascinerande värld – från små kolibrier till mäktiga örnar.",
+        "subheader": "Färgglada och varierande, australiska fåglar som kookaburror, emuer och papegojor visar fascinerande beteenden och anpassningar.",
         "button": "Våra Fåglar"
       }
     },

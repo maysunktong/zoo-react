@@ -108,17 +108,17 @@
       },
       "mammals": {
         "header": "Mammals",
-        "subheader": "Discover the warm-blooded wonders of the animal kingdom, from lions to whales.",
+        "subheader": "Australia's mammals include unique marsupials like kangaroos and koalas, known for pouches and adaptations to diverse environments.",
         "button": "Our Mammals"
       },
       "reptiles": {
         "header": "Reptiles",
-        "subheader": "Uncover the secrets of ancient reptiles — from slithering snakes to sun-loving lizards.",
+        "subheader": "Australia hosts numerous reptiles, including crocodiles, snakes, and lizards, thriving in its varied climates from deserts to wetlands.",
         "button": "Our Reptiles"
       },
       "birds": {
         "header": "Birds",
-        "subheader": "Explore the fascinating world of birds — from tiny hummingbirds to mighty eagles",
+        "subheader": "Colorful and diverse, Australian birds like kookaburras, emus, and parrots showcase fascinating behaviors and adaptations across the continent.",
         "button": "Our Birds"
       }
     }
