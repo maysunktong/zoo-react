@@ -7,7 +7,8 @@
       "description": "Echidnor, även kallade taggiga myrätare, är gåtfulla djur. De är däggdjur, men lägger ägg. De klassificeras ofta som lång- eller kortnosade, men har i själva verket köttiga näsor snarare än näbbar. De är inte nära släkt med riktiga myrätare och deras kroppar är täckta av ihåliga, taggfria piggar.",
       "length": "76cm",
       "weight": "10kg",
-      "found": "Hela Australien"
+      "found": "Hela Australien",
+      "group": "Däggdjur"
     },
     "Tasmanian Devil": {
       "name": "Tasmansk djävul",
@@ -16,7 +17,8 @@
       "description": "Tasmansk djävul är ett köttätande pungdjur. Den är ungefär lika stor som en liten hund och blev världens största köttätande pungdjur efter att pungvargen dog ut 1936.",
       "length": "70cm",
       "weight": "10kg",
-      "found": "Tasmanien"
+      "found": "Tasmanien",
+      "group": "Däggdjur"
     },
     "Quokka": {
       "name": "Quokka",
@@ -25,7 +27,8 @@
       "description": "Quokkan beskrevs först av en holländsk upptäcktsresande som en råttliknande varelse i kattstorlek. Den liknar andra vallabyer och har kort, grov gråbrun päls.",
       "length": "50cm",
       "weight": "3kg",
-      "found": "Rottnest Island och delar av västra Australien"
+      "found": "Rottnest Island och delar av västra Australien",
+      "group": "Däggdjur"
     },
     "Frill-necked Lizard": {
       "name": "Kragskrudsödla",
@@ -34,7 +37,8 @@
       "description": "När denna ödla känner sig hotad reser den sig upp, vecklar ut sitt färgglada nackskinn och väser. Om det inte hjälper, springer den iväg till närmaste träd.",
       "length": "90cm",
       "weight": "1kg",
-      "found": "Norra Australien"
+      "found": "Norra Australien",
+      "group": "Reptiler"
     },
     "Hawksbill Turtle": {
       "name": "Hökbillsköldpadda",
@@ -43,7 +47,8 @@
       "description": "Hökbillsköldpaddan har ett fågelliknande näbb och ett skal med överlappande sköldar. Honorna väger runt 50 kg och skölden är cirka 80 cm lång.",
       "length": "80cm (sköld)",
       "weight": "50kg",
-      "found": "Tropiska kuster i Queensland, Northern Territory och västra Australien"
+      "found": "Tropiska kuster i Queensland, Northern Territory och västra Australien",
+      "group": "Reptiler"
     },
     "Perentie": {
       "name": "Perentie",
@@ -52,7 +57,8 @@
       "description": "Perentie är Australiens största monitorödla. Den är skygg och lever i avlägsna ökenområden. Den har varit en viktig del i aboriginernas kultur.",
       "length": "2.5m",
       "weight": "20kg",
-      "found": "Öknar"
+      "found": "Öknar",
+      "group": "Reptiler"
     },
     "Cassowary": {
       "name": "Kasuar",
@@ -61,7 +67,8 @@
       "description": "Kasuaren är en stor, flygoförmögen fågel med kraftiga ben. Den är skygg men kan vara farlig när den provoceras.",
       "length": "1.7m",
       "weight": "44kg",
-      "found": "Queensland"
+      "found": "Queensland",
+      "group": "Fåglar"
     },
     "Kookaburra": {
       "name": "Skrattfågel",
@@ -70,7 +77,8 @@
       "description": "Skrattkookaburran är den största medlemmen i kungsfiskarfamiljen och känd för sitt skrattliknande läte.",
       "length": "43cm",
       "weight": "300g",
-      "found": "Hela Australien"
+      "found": "Hela Australien",
+      "group": "Fåglar"
     },
     "Yellow Tailed Black Cockatoo": {
       "name": "Svart kakadua med gul stjärt",
@@ -79,7 +87,8 @@
       "description": "Denna kakadua har mörk fjäderdräkt med gula markeringar, flyger långsamt och har ett sorgset läte.",
       "length": "65cm",
       "weight": "900g",
-      "found": "Sydöstra Australien"
+      "found": "Sydöstra Australien",
+      "group": "Fåglar"
     }
   },
   "ui": {
@@ -112,6 +121,15 @@
         "subheader": "Utforska fåglarnas fascinerande värld – från små kolibrier till mäktiga örnar.",
         "button": "Våra Fåglar"
       }
+    },
+    "interface": {
+      "group": "Grupp",
+      "food": "Föda",
+      "lifespan": "Livslängd",
+      "weight": "Vikt",
+      "length": "Längd",
+      "found": "Habitat",
+      "visit": "Besök"
     }
   }
 }

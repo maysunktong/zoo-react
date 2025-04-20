@@ -7,7 +7,8 @@
       "description": "Echidnas, also called spiny anteaters, are walking contradictions. They are mammals, but they lay eggs. They have fleshy noses instead of beaks, and their bodies are covered in hollow, barbless quills.",
       "length": "76cm",
       "weight": "10kg",
-      "found": "Throughout Australia"
+      "found": "Throughout Australia",
+      "group": "Mammals"
     },
     "Tasmanian Devil": {
       "name": "Tasmanian Devil",
@@ -16,7 +17,8 @@
       "description": "The Tasmanian devil is a carnivorous marsupial. About the size of a small dog, it became the largest carnivorous marsupial after the thylacine's extinction in 1936.",
       "length": "70cm",
       "weight": "10kg",
-      "found": "Tasmania"
+      "found": "Tasmania",
+      "group": "Mammals"
     },
     "Quokka": {
       "name": "Quokka",
@@ -25,7 +27,8 @@
       "description": "The quokka resembles other wallabies and was first described as a rat-sized cat. It has coarse grey-brown fur and a short, mostly hairless tail.",
       "length": "50cm",
       "weight": "3kg",
-      "found": "Rottnest Island and parts of Western Australia"
+      "found": "Rottnest Island and parts of Western Australia",
+      "group": "Mammals"
     },
     "Frill-necked Lizard": {
       "name": "Frill-necked Lizard",
@@ -34,7 +37,8 @@
       "description": "When threatened, this lizard rises on its hind legs, opens its yellow mouth, unfurls its colorful frill, and hisses. If that fails, it runs to the nearest tree.",
       "length": "90cm",
       "weight": "1kg",
-      "found": "Northern Australia"
+      "found": "Northern Australia",
+      "group": "Reptiles"
     },
     "Hawksbill Turtle": {
       "name": "Hawksbill Turtle",
@@ -43,7 +47,8 @@
       "description": "The Hawksbill Turtle has a bird-like beak and a shell with overlapping scutes and serrated edges. Females average 50kg and have an 80cm shell.",
       "length": "80cm (carapace)",
       "weight": "50kg",
-      "found": "Tropical coasts of Queensland, Northern Territory, and Western Australia"
+      "found": "Tropical coasts of Queensland, Northern Territory, and Western Australia",
+      "group": "Reptiles"
     },
     "Perentie": {
       "name": "Perentie",
@@ -52,7 +57,8 @@
       "description": "The Perentie is Australia's largest monitor lizard. It is shy and lives in remote deserts. It held cultural significance for Aboriginal people.",
       "length": "2.5m",
       "weight": "20kg",
-      "found": "Deserts"
+      "found": "Deserts",
+      "group": "Reptiles"
     },
     "Cassowary": {
       "name": "Cassowary",
@@ -61,7 +67,8 @@
       "description": "Cassowaries are large, flightless birds with powerful legs and a prehistoric appearance. Though shy, they can be dangerous when provoked.",
       "length": "1.7m",
       "weight": "44kg",
-      "found": "Queensland"
+      "found": "Queensland",
+      "group": "Birds"
     },
     "Kookaburra": {
       "name": "Kookaburra",
@@ -70,7 +77,8 @@
       "description": "The laughing kookaburra is the largest member of the kingfisher family, known for its distinctive call that sounds like laughter.",
       "length": "43cm",
       "weight": "300g",
-      "found": "Australia wide"
+      "found": "Australia wide",
+      "group": "Birds"
     },
     "Yellow Tailed Black Cockatoo": {
       "name": "Yellow Tailed Black Cockatoo",
@@ -79,7 +87,8 @@
       "description": "These cockatoos have dark feathers with yellow markings. They fly slowly with a wailing call and are found in temperate forests of southeastern Australia.",
       "length": "65cm",
       "weight": "900g",
-      "found": "Southeastern Australia"
+      "found": "Southeastern Australia",
+      "group": "Birds"
     }
   },
   "ui": {

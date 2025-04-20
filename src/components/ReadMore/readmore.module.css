@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 2rem 0;
+  color: #3b5f4c;
+
+}
+
+.expandedSection {
+  margin-top: 1rem;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.toggleButton {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #78a18a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.toggleButton:hover {
+  background-color: #e68900;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    font-size: 1.5rem;
+  }
+}
