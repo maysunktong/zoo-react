@@ -121,6 +121,15 @@
         "subheader": "Colorful and diverse, Australian birds like kookaburras, emus, and parrots showcase fascinating behaviors and adaptations across the continent.",
         "button": "Our Birds"
       }
+    },
+    "interface": {
+      "group": "Group",
+      "food": "Food",
+      "lifespan": "lifespan",
+      "weight": "weight",
+      "length": "length",
+      "found": "Found",
+      "visit": "Visit"
     }
   }
 }
