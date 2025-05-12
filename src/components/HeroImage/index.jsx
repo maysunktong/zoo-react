@@ -16,7 +16,7 @@ const HeroImage = ({ page = "", image }) => {
       <div className={styles.heroText}>
         <h1>{tHeroImage.header}</h1>
         <p>{tHeroImage.subheader}</p>
-        <button onClick={() => setIsOpen(true)}>{tHeroImage.button}</button>
+        <button onClick={() => setIsOpen((prev) => !prev)}>{tHeroImage.button}</button>
       </div>
     </div>
   );
